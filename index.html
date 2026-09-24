@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Amerigraf: cartas de color para tintes de cabello</title>
+<meta name="description" content="Diseñamos y producimos cartas de color para tintes de cabello. Quito, Ecuador.">
+<meta property="og:title" content="Amerigraf: cartas de color para tintes de cabello">
+<meta property="og:description" content="Del prototipo a la carta terminada, con laboratorios de colorimetría en Europa.">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,700;1,6..96,500;1,6..96,700&family=Jost:wght@300;400;500&display=swap">
+<style>
+:root{--b3:url("assets/img/salon-fondo.webp");--b4:url("assets/img/retrato-fondo.webp");--b2:url("assets/img/carta-desenfocada.webp");--k:#050507;--t:#f3efe9;--m:#bdb9c6;--s1:#ff2d8f;--s2:#ff8a2b;--s3:#ffd23f;--s4:#2ee6a6;--s5:#23c7ff;--s6:#8b5cff;--sp:linear-gradient(90deg,var(--s1),var(--s2),var(--s3),var(--s4),var(--s5),var(--s6));--ar:7.47;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{background:var(--k);scroll-behavior:smooth;overflow-x:clip;scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;overflow-x:clip;background:var(--k);color:var(--t);font:300 1.1rem/1.7 Jost,system-ui,sans-serif}
+h1,h2,h3,.n{font-family:"Bodoni Moda",Didot,Georgia,serif;font-weight:500;margin:0;letter-spacing:-.02em}
+h2{font-size:clamp(2.3rem,5.4vw,4.2rem);line-height:1.02}
+h3{font-size:1.5rem;line-height:1.15;margin-bottom:6px}
+p{margin:0;color:var(--m)}
+.w{max-width:1160px;margin:0 auto;padding:0 22px}
+section{padding:110px 0;position:relative;isolation:isolate;overflow:hidden}
+.px{position:absolute;inset:-35% 0;z-index:-1;pointer-events:none;will-change:transform;background:var(--gl);--im:none}
+.px::before{content:"";position:absolute;inset:0;background:var(--im) center/cover;filter:blur(30px) saturate(1.4);opacity:.3;-webkit-mask-image:radial-gradient(60% 50% at 50% 50%,#000,transparent);mask-image:radial-gradient(60% 50% at 50% 50%,#000,transparent)}
+.px::after{content:"";position:absolute;inset:0;background:linear-gradient(#ffffff12 1px,transparent 1px) 0 0/100% 96px,linear-gradient(90deg,#ffffff12 1px,transparent 1px) 0 0/96px 100%;-webkit-mask-image:radial-gradient(65% 45% at 50% 50%,#000,transparent);mask-image:radial-gradient(65% 45% at 50% 50%,#000,transparent)}
+.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:60px 22px;position:relative;isolation:isolate;overflow:hidden}
+.hero>div{width:min(88vw,920px)}
+.px.sh{inset:-20% 0}
+.px.sh::before{filter:none;opacity:var(--o,.6);background:var(--im) var(--bp,center)/max(100%,900px) auto no-repeat;-webkit-mask-image:linear-gradient(transparent,#000 22%,#000 78%,transparent);mask-image:linear-gradient(transparent,#000 22%,#000 78%,transparent)}
+.hv video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:68% center;z-index:0}
+.hv::before{z-index:1;filter:none;opacity:1;background:linear-gradient(#050507bb,#05050773 40%,#050507);-webkit-mask-image:none;mask-image:none}
+.hv::after{z-index:2}
+#proceso .ps p,#contacto p{color:#e2dee9}
+.n{font-family:Jost,system-ui,sans-serif;font-style:normal;font-weight:500;font-size:4.4rem;letter-spacing:0}
+.js .rv:not(.in){transition-delay:0s}
+.lg{display:block;width:100%;aspect-ratio:var(--ar);fill:#fff;animation:rvl 1.5s cubic-bezier(.7,0,.2,1) both}
+@keyframes rvl{from{clip-path:inset(0 100% 0 0)}}
+.hb{height:3px;margin:26px 0 30px;background:var(--sp);transform-origin:left;animation:gx 1.2s .9s cubic-bezier(.7,0,.2,1) both}
+@keyframes gx{from{transform:scaleX(0)}}
+.hero h1{font-style:italic;font-size:clamp(1.5rem,3.6vw,2.5rem);line-height:1.15;animation:up 1s 1.6s both}
+.hero p{margin-top:14px;color:var(--t);opacity:.85;animation:up 1s 1.8s both}
+@keyframes up{from{opacity:0;transform:translateY(12px)}}
+.sc{position:absolute;bottom:26px;left:50%;width:1px;height:46px;background:linear-gradient(var(--t),transparent);animation:up 1s 2.4s both}
+.js .rv{opacity:0;transform:translateX(80px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+.two{display:grid;gap:56px;align-items:center}
+@media(min-width:900px){.two{grid-template-columns:1fr 1fr;gap:80px}}
+.two p{margin-top:22px;max-width:32rem}
+.two p.q{margin-top:32px;padding-left:22px;border-left:4px solid;border-image:linear-gradient(var(--s1),var(--s6)) 1;font:italic 500 1.5rem/1.3 "Bodoni Moda",Georgia,serif;color:var(--t)}
+.mo{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.ph,.gl img{width:100%;height:auto;display:block;border-radius:14px;box-shadow:0 26px 60px -26px var(--g)}
+.mo .ph:nth-child(even){margin-top:36px}
+.it{display:grid;gap:34px;margin-top:70px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.it div{border-top:2px solid var(--c);padding-top:18px}
+#proceso{background:linear-gradient(#0b0b12,var(--k))}
+.ps{display:grid;gap:36px;margin-top:64px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.n{display:block;font-style:italic;font-weight:700;font-size:5.4rem;line-height:1;margin-bottom:10px;background:linear-gradient(120deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.gl{display:grid;gap:22px;margin-top:56px}
+@media(min-width:800px){.gl{grid-template-columns:1fr 1fr}}
+.po{aspect-ratio:16/9;width:100%;border:0;border-radius:16px;cursor:pointer;display:grid;place-items:center;background:radial-gradient(60% 80% at 15% 15%,var(--s1),transparent),radial-gradient(60% 80% at 88% 88%,var(--s5),transparent),var(--s6)}
+.po span{width:84px;height:84px;border-radius:50%;background:var(--k);color:#fff;display:grid;place-items:center;font-size:1.8rem;padding-left:6px}
+#contacto{text-align:center}
+#contacto p{margin:22px auto 36px;max-width:34rem}
+.b{display:inline-flex;align-items:center;gap:.6rem;padding:.95rem 1.7rem;border-radius:99px;font:500 1.05rem Jost,sans-serif;text-decoration:none;border:1px solid #fff7;color:var(--t);background:none;cursor:pointer}
+.b.wa{background:#25d366;border-color:#25d366;color:#04140a}
+.b:focus-visible,a:focus-visible,button:focus-visible{outline:3px solid var(--s5);outline-offset:3px}
+.i{width:22px;height:22px}
+footer{padding:36px 0}footer .w{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center}footer .lg{width:150px;animation:none}
+.fl{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));padding:.95rem;box-shadow:0 10px 30px #0008;z-index:5}
+dialog{border:0;padding:0;border-radius:16px;width:min(900px,94vw);background:#000;color:#fff;overflow:hidden}
+dialog::backdrop{background:#000d}
+.vf{aspect-ratio:16/9}.vf iframe{width:100%;height:100%;border:0}
+.bar{display:flex;justify-content:space-between;gap:12px;padding:12px 16px;font-size:.95rem}.bar a{color:#fff}.bar button{background:none;border:0;color:#fff;font:500 1rem Jost,sans-serif;cursor:pointer}
+@media(prefers-reduced-motion:reduce){.js .rv{opacity:1;transform:none;transition:none}.hero *{animation:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><path id="lg" fill-rule="evenodd" d="M0 260L0 240L32 240C67 239 68 239 57 234C42 226 40 216 50 188C53 178 57 168 58 165L60 161L105 161C129 161 150 161 152 162C154 162 162 182 169 202C175 221 172 230 157 236C154 237 152 238 152 238C152 240 259 240 260 238C260 237 258 236 256 235C241 228 232 216 222 189C199 131 192 111 186 95C183 88 178 75 175 66C172 58 165 40 159 26L149 2L134 1C125 1 152 0 192 0C255 0 266 0 265 1C265 2 267 4 272 6C281 10 289 18 292 26C293 30 294 34 294 120L294 208L291 214C288 222 279 232 271 235C261 239 263 240 300 240C336 240 338 239 329 235C318 231 310 222 306 210C304 205 303 58 305 58C305 58 319 92 345 157C348 165 354 180 359 192C364 202 370 218 373 226L379 240L395 240L410 240L419 217C424 205 430 189 433 182C454 127 460 111 463 101C472 77 478 64 478 64C480 64 479 204 478 210C475 221 469 229 457 235C454 236 451 238 451 238C451 240 560 240 562 238C563 238 561 236 556 234C547 229 540 223 537 214L535 208L535 121C535 30 535 29 539 21C542 16 550 9 557 6C564 3 564 1 557 1C554 1 563 0 576 0C590 0 595 1 586 1C569 1 567 2 578 6C586 10 593 17 596 24L598 28L598 120L598 212L596 217C593 223 585 231 577 235C569 238 569 239 583 239C593 240 788 239 789 239C789 238 789 214 789 185L788 132L782 144C747 213 736 227 714 230C709 231 655 231 655 231C654 229 654 133 655 128L655 122L690 122L725 122L725 118L725 113L691 113C664 113 656 113 655 112C654 110 654 16 655 12L655 10L684 10C716 10 722 11 733 15C749 23 766 42 782 70C784 73 786 75 786 75C787 75 787 61 787 38L787 1L741 1C716 1 787 0 898 0C1009 0 1088 1 1073 1C1043 1 1040 2 1050 6C1061 10 1070 19 1072 29C1073 33 1073 55 1073 98L1072 160L1070 166C1066 173 1060 179 1052 183C1049 184 1046 186 1046 186C1047 188 1156 188 1157 186C1157 186 1154 184 1151 182C1140 177 1137 174 1133 166L1130 160L1130 95L1130 29L1133 23C1136 15 1142 11 1152 6C1159 2 1158 1 1149 1C1144 1 1172 0 1210 0C1254 0 1275 1 1270 1C1223 6 1176 45 1163 92C1144 157 1189 226 1258 238C1298 244 1344 228 1365 200L1370 194L1370 165L1370 136L1316 136C1287 136 1263 136 1263 137C1263 137 1266 139 1270 140C1299 150 1312 166 1314 193C1315 209 1314 209 1307 208C1274 203 1231 175 1212 146C1168 79 1198 16 1266 33C1288 39 1310 53 1329 72L1336 80L1337 75C1338 68 1338 17 1337 14C1336 10 1315 3 1297 1C1293 1 1441 0 1636 0C1827 0 1957 1 1927 1C1866 1 1865 1 1878 6C1886 10 1893 17 1896 24L1898 28L1898 120L1898 212L1896 216C1893 223 1886 230 1878 234C1867 239 1867 239 1928 239C1986 239 1990 239 1982 235C1972 232 1970 230 1966 226C1955 217 1955 213 1955 162L1956 122L1993 122L2030 122L2031 117L2031 113L1993 113L1956 112L1955 64C1955 38 1955 15 1956 13L1956 10L1991 10C2029 11 2030 11 2043 18C2056 26 2074 48 2087 71L2090 76L2090 57C2090 46 2091 92 2091 159L2091 280L1619 280C1359 280 1151 279 1156 279C1163 278 1179 276 1180 275C1180 274 1175 274 1168 273C1123 268 1086 245 1047 195C1012 151 991 134 960 126C951 124 951 124 961 122C998 117 1020 96 1022 66C1024 33 998 7 959 2C946 0 801 1 801 2C801 3 804 5 808 7C816 11 822 17 826 24L828 30L828 120L828 210L826 215C823 222 815 231 807 234C804 235 801 237 801 238C802 239 915 239 915 238C915 237 915 236 914 236C907 236 892 224 888 216L886 210L886 167L886 124L900 125C937 125 952 136 989 192C1016 233 1032 248 1060 262C1078 271 1101 277 1121 279C1127 279 877 280 566 280L0 280L0 260ZM1482 237C1482 237 1479 235 1475 234C1467 230 1458 222 1455 214C1454 210 1454 206 1453 167L1453 125L1460 125C1495 121 1505 132 1511 182C1513 202 1518 220 1523 231L1526 239L1565 239C1586 239 1603 239 1603 238C1603 238 1601 236 1599 234C1585 225 1575 207 1570 183C1565 161 1560 150 1549 140C1543 135 1528 128 1522 126C1516 125 1517 124 1525 124C1571 120 1597 89 1590 50C1587 34 1574 18 1557 10C1538 1 1541 1 1449 1C1361 1 1363 1 1376 7C1384 11 1390 17 1394 24L1396 30L1396 120L1396 212L1393 218C1390 225 1385 229 1376 234C1373 235 1370 237 1370 238C1370 239 1481 239 1482 237ZM1673 237C1673 237 1671 236 1669 235C1653 231 1648 214 1657 194C1658 190 1661 182 1663 176C1665 170 1667 164 1668 163C1668 161 1671 161 1715 161L1762 162L1769 178C1782 212 1783 217 1779 224C1777 229 1772 232 1765 235C1754 239 1757 239 1813 239C1873 239 1875 239 1863 233C1846 225 1842 218 1820 160C1817 153 1811 138 1807 128C1804 118 1798 104 1796 98C1793 92 1784 68 1774 44L1757 2L1729 1L1700 1L1702 4C1710 13 1710 16 1706 27C1704 32 1700 44 1696 54C1693 63 1685 84 1680 99C1674 114 1667 133 1665 142C1640 209 1641 207 1633 218C1628 225 1620 232 1613 235C1611 236 1609 237 1609 238C1609 239 1672 239 1673 237ZM0 119L0 0L57 0C88 0 108 1 102 1L91 2L94 4C96 6 98 9 99 12L101 17L93 39C89 51 85 63 84 66C78 80 75 88 72 98C69 105 65 117 62 124C58 136 45 171 36 197C29 215 19 228 6 235L0 238L0 119ZM415 194C415 193 410 181 405 168C381 109 379 102 356 48C346 25 341 13 338 6L336 0L415 0L493 0L492 3C490 6 465 70 461 80C460 83 458 89 456 94C454 98 451 106 449 110C448 115 444 125 442 131C439 137 434 150 431 160C416 200 417 197 415 194ZM63 152C63 151 66 142 70 132C74 121 78 109 80 104C82 100 84 92 86 87C88 82 92 72 94 64C102 43 105 35 106 35C106 36 116 62 123 78C137 116 141 128 145 139C148 146 150 151 150 152C150 152 130 152 106 152C83 152 63 152 63 152ZM1672 150C1672 150 1673 147 1674 145C1674 143 1681 125 1688 106C1695 86 1704 62 1707 53C1710 44 1713 37 1713 36C1713 33 1715 37 1720 48C1727 68 1738 95 1741 104C1744 113 1754 139 1756 145C1760 153 1763 152 1715 152C1677 152 1672 152 1672 150ZM885 114C885 113 885 90 885 62L886 10L902 10C912 10 923 10 926 11C975 18 981 95 934 112C927 115 886 116 885 114ZM1453 62L1453 10L1476 10C1506 11 1511 12 1522 25C1531 37 1535 46 1534 64C1534 88 1524 105 1503 113C1497 115 1495 115 1475 115L1453 115L1453 62ZM2090 18L2090 1L2044 1L1998 0L2044 0L2091 0L2091 18C2091 27 2091 35 2090 35C2090 35 2090 27 2090 18ZM654 0C659 0 667 0 672 0C677 0 673 1 663 1C653 1 649 0 654 0Z"/></defs>
+<symbol id="wi" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M12 2.5a9.5 9.5 0 0 0-8.2 14.3L2.5 21.5l4.8-1.2A9.5 9.5 0 1 0 12 2.5z"/><path fill="currentColor" d="M8.6 7.6c.3-.5 1-.5 1.3 0l.7 1.4c.1.3 0 .6-.2.8l-.5.5c.6 1.2 1.6 2.1 2.8 2.7l.6-.6c.2-.2.5-.3.8-.2l1.4.7c.5.3.5 1 0 1.3-.8.8-2 1-3.2.4-2.1-1-3.8-2.7-4.8-4.8-.6-1.2-.4-2.4.5-3.2z"/></symbol></svg>
+
+<main>
+<div class="hero"><i class="px hv" data-s=".3" style="inset:0"><video id="hv" muted loop autoplay playsinline preload="auto" poster="assets/img/poster.jpg" src="assets/video/loop.mp4"></video></i><div>
+<svg class="lg" viewBox="0 0 2091 280" role="img" aria-label="Amerigraf"><use href="#lg"/></svg>
+<div class="hb"></div>
+<h1>Cartas de color para tintes de cabello</h1>
+<p>Diseñadas y producidas en Quito, con laboratorios de colorimetría en Europa.</p>
+</div><span class="sc" aria-hidden="true"></span></div>
+
+<section id="hacemos"><i class="px" data-s=".18" style="--gl:radial-gradient(40% 30% at 0% 40%,#ff8a2b33,transparent 70%),radial-gradient(35% 30% at 100% 70%,#ff2d8f33,transparent 70%)"></i><div class="w">
+<div class="two">
+<div class="rv"><h2>Del prototipo a la carta terminada</h2>
+<p>Diseñamos y producimos cartas de color para tintes de cabello, en alianza estratégica con laboratorios de colorimetría en Europa.</p>
+<p class="q">Un servicio de consultoría: atentos a tus necesidades, como un socio estratégico.</p></div>
+<img class="ph rv" style="--g:#ff2d8f88;--d:.1s" alt="Carta de color abierta con mechones de tinte ordenados por familia de color" src="assets/img/carta-mechones.webp"></div>
+<div class="it">
+<div class="rv" style="--c:var(--s1)"><h3>Muestras y prototipos</h3><p>Los desarrollamos a partir de tu catálogo o de un mechón tinturado.</p></div>
+<div class="rv" style="--c:var(--s4);--d:.12s"><h3>Tu carta, a tu medida</h3><p>Eliges la forma y el tamaño de los mechones, y el mecanismo de la carta.</p></div>
+<div class="rv" style="--c:var(--s5);--d:.24s"><h3>Producción completa</h3><p>Cuando apruebas el prototipo, producimos la totalidad de las cartas.</p></div>
+</div></div></section>
+
+<section id="proceso"><i class="px sh" data-s=".18" style="--gl:radial-gradient(45% 35% at 90% 30%,#8b5cff44,transparent 70%),radial-gradient(40% 30% at 5% 80%,#23c7ff33,transparent 70%);--im:var(--b3);--bp:center 45%;--o:.32"></i><div class="w"><h2 class="rv">Trabajamos paso a paso contigo</h2>
+<div class="ps">
+<div class="rv" style="--a:var(--s1);--b:var(--s2)"><b class="n">1</b><h3>Recibimos tu muestra</h3><p>Puede ser un catálogo o un mechón tinturado.</p></div>
+<div class="rv" style="--a:var(--s3);--b:var(--s4);--d:.12s"><b class="n">2</b><h3>Diseñamos prototipos</h3><p>Personalizas la forma, el tamaño de los mechones y el mecanismo.</p></div>
+<div class="rv" style="--a:var(--s4);--b:var(--s5);--d:.24s"><b class="n">3</b><h3>Te enviamos la muestra</h3><p>Recibes la muestra impresa y el prototipo de mechas codificadas para aprobarlos.</p></div>
+<div class="rv" style="--a:var(--s5);--b:var(--s6);--d:.36s"><b class="n">4</b><h3>Producimos tu carta</h3><p>Con tu aprobación, pasamos a la producción total.</p></div>
+</div></div></section>
+
+<section id="cartas"><i class="px" data-s=".3" style="--gl:radial-gradient(50% 40% at 50% 50%,#ff2d8f22,transparent 70%);--im:var(--b2)"></i><div class="w"><h2 class="rv">Cada tono, en su lugar</h2>
+<p class="rv" style="--d:.1s;margin-top:22px;max-width:34rem">Mechones codificados y ordenados por familia de color, para que elegir sea rápido.</p>
+<div class="gl" style="grid-template-columns:1fr"><img class="rv" style="--g:#8b5cff99" alt="Carta de color abierta en un salón, junto a un maniquí con cabello de colores" src="assets/img/carta-abierta.webp"></div></div></section>
+
+<section id="reel"><i class="px" data-s=".22" style="--gl:radial-gradient(40% 40% at 15% 50%,#23c7ff44,transparent 70%),radial-gradient(40% 40% at 90% 40%,#ff2d8f44,transparent 70%)"></i><div class="w two">
+<div class="rv"><h2>Mira cómo trabajamos</h2><p>Un recorrido de 30 segundos por nuestras cartas de color. Se entiende también sin sonido.</p></div>
+<button class="po rv" style="--d:.15s" data-v aria-label="Reproducir el reel"><span>▶</span></button>
+</div></section>
+
+<section id="contacto"><i class="px sh" data-s=".2" style="--gl:radial-gradient(60% 70% at 50% 100%,#ff2d8f66,transparent 70%),radial-gradient(40% 50% at 12% 95%,#23c7ff55,transparent 70%);--im:var(--b4);--bp:70% 35%"></i><div class="w">
+<h2 class="rv">Cuéntanos qué carta necesitas</h2>
+<p class="rv" style="--d:.1s">Escríbenos por WhatsApp y conversemos sobre tu proyecto.</p>
+<a class="b wa rv" style="--d:.2s" data-wa href="https://wa.me/593998841149?text=Hola%20Amerigraf%2C%20quisiera%20informaci%C3%B3n%20sobre%20sus%20cartas%20de%20color."><svg class="i"><use href="#wi"/></svg>Contáctanos</a>
+</div></section>
+</main>
+
+<footer><div class="w"><svg class="lg" viewBox="0 0 2091 280" role="img" aria-label="Amerigraf"><use href="#lg"/></svg><span>Quito, Ecuador</span></div></footer>
+
+<a class="b wa fl" data-wa aria-label="Escribir por WhatsApp" href="https://wa.me/593998841149?text=Hola%20Amerigraf%2C%20quisiera%20informaci%C3%B3n%20sobre%20sus%20cartas%20de%20color."><svg class="i"><use href="#wi"/></svg></a>
+
+<dialog id="v" aria-label="Reel de Amerigraf"><div class="vf"><iframe id="vf" title="Reel de Amerigraf" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<div class="bar"><a href="https://youtu.be/vyQTw0yacX0" target="_blank" rel="noopener noreferrer">Si no carga, ábrelo en YouTube</a><button id="xc">Cerrar</button></div></dialog>
+
+<script>
+const $=i=>document.getElementById(i);
+document.documentElement.classList.add('js');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in');else if(e.boundingClientRect.top>0)e.target.classList.remove('in')}),{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+/* WhatsApp: en celular abre la app (wa.me); en computador va directo a WhatsApp Web */
+const n='593998841149',t=encodeURIComponent('Hola Amerigraf, quisiera información sobre sus cartas de color.');
+const mob=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||(navigator.maxTouchPoints>1&&innerWidth<1100);
+const u=mob?`https://wa.me/${n}?text=${t}`:`https://web.whatsapp.com/send?phone=${n}&text=${t}`;
+document.querySelectorAll('[data-wa]').forEach(a=>{a.href=u;a.target='_blank';a.rel='noopener noreferrer'});
+const d=$('v'),f=$('vf'),x=()=>d.close();
+document.querySelectorAll('[data-v]').forEach(b=>b.onclick=()=>{f.src='https://www.youtube-nocookie.com/embed/vyQTw0yacX0?autoplay=1&rel=0';d.showModal()});
+d.addEventListener('click',e=>{if(e.target===d)x()});
+d.addEventListener('close',()=>f.removeAttribute('src'));
+$('xc').onclick=x;
+const hv=$('hv');hv.muted=true;hv.play().catch(()=>{});if(matchMedia('(prefers-reduced-motion:reduce)').matches)hv.pause();
+/* parallax: el fondo avanza más lento que el contenido */
+const P=[...document.querySelectorAll('.px')];let q=0;
+const upd=()=>{q=0;const h=innerHeight;P.forEach(e=>{const b=e.parentElement.getBoundingClientRect();if(b.bottom<-50||b.top>h+50)return;e.style.transform=`translate3d(0,${-(b.top+b.height/2-h/2)*e.dataset.s}px,0)`})};
+if(!matchMedia('(prefers-reduced-motion:reduce)').matches){const go=()=>q||(q=requestAnimationFrame(upd));addEventListener('scroll',go,{passive:true});addEventListener('resize',go);upd()}
+</script>
+</body>
+</html>
