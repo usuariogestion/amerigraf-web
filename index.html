@@ -8,14 +8,14 @@
 <meta property="og:title" content="Amerigraf: cartas de color para tintes de cabello">
 <meta property="og:description" content="Del prototipo a la carta terminada, con laboratorios de colorimetría en Europa.">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,700;1,6..96,500;1,6..96,700&family=Jost:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:wght@300;400;500;700&display=swap">
 <style>
 :root{--b3:url("assets/img/salon-fondo.webp");--b4:url("assets/img/retrato-fondo.webp");--b2:url("assets/img/carta-desenfocada.webp");--k:#050507;--t:#f3efe9;--m:#bdb9c6;--s1:#ff2d8f;--s2:#ff8a2b;--s3:#ffd23f;--s4:#2ee6a6;--s5:#23c7ff;--s6:#8b5cff;--sp:linear-gradient(90deg,var(--s1),var(--s2),var(--s3),var(--s4),var(--s5),var(--s6));--ar:7.47;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 html{background:var(--k);scroll-behavior:smooth;overflow-x:clip;scroll-padding-top:env(safe-area-inset-top,0px)}
 *,*::before,*::after{box-sizing:inherit}
 body{margin:0;overflow-x:clip;background:var(--k);color:var(--t);font:300 1.1rem/1.7 Jost,system-ui,sans-serif}
-h1,h2,h3,.n{font-family:"Bodoni Moda",Didot,Georgia,serif;font-weight:500;margin:0;letter-spacing:-.02em}
-h2{font-size:clamp(2.3rem,5.4vw,4.2rem);line-height:1.02}
+h1,h2,h3,.n{font-family:"DM Serif Display",Georgia,serif;font-weight:400;margin:0;letter-spacing:-.005em}
+h2{font-size:clamp(2.2rem,5vw,3.9rem);line-height:1.1}
 h3{font-size:1.5rem;line-height:1.15;margin-bottom:6px}
 p{margin:0;color:var(--m)}
 .w{max-width:1160px;margin:0 auto;padding:0 22px}
@@ -31,13 +31,13 @@ section{padding:110px 0;position:relative;isolation:isolate;overflow:hidden}
 .hv::before{z-index:1;filter:none;opacity:1;background:linear-gradient(#050507bb,#05050773 40%,#050507);-webkit-mask-image:none;mask-image:none}
 .hv::after{z-index:2}
 #proceso .ps p,#contacto p{color:#e2dee9}
-.n{font-family:Jost,system-ui,sans-serif;font-style:normal;font-weight:500;font-size:4.4rem;letter-spacing:0}
+.n{font-family:Jost,system-ui,sans-serif;font-style:normal;font-weight:700;font-size:4.6rem;letter-spacing:0}
 .js .rv:not(.in){transition-delay:0s}
 .lg{display:block;width:100%;aspect-ratio:var(--ar);fill:#fff;animation:rvl 1.5s cubic-bezier(.7,0,.2,1) both}
 @keyframes rvl{from{clip-path:inset(0 100% 0 0)}}
 .hb{height:3px;margin:26px 0 30px;background:var(--sp);transform-origin:left;animation:gx 1.2s .9s cubic-bezier(.7,0,.2,1) both}
 @keyframes gx{from{transform:scaleX(0)}}
-.hero h1{font-style:italic;font-size:clamp(1.5rem,3.6vw,2.5rem);line-height:1.15;animation:up 1s 1.6s both}
+.hero h1{font-size:clamp(1.5rem,3.6vw,2.5rem);line-height:1.15;animation:up 1s 1.6s both}
 .hero p{margin-top:14px;color:var(--t);opacity:.85;animation:up 1s 1.8s both}
 @keyframes up{from{opacity:0;transform:translateY(12px)}}
 .sc{position:absolute;bottom:26px;left:50%;width:1px;height:46px;background:linear-gradient(var(--t),transparent);animation:up 1s 2.4s both}
@@ -46,7 +46,7 @@ section{padding:110px 0;position:relative;isolation:isolate;overflow:hidden}
 .two{display:grid;gap:56px;align-items:center}
 @media(min-width:900px){.two{grid-template-columns:1fr 1fr;gap:80px}}
 .two p{margin-top:22px;max-width:32rem}
-.two p.q{margin-top:32px;padding-left:22px;border-left:4px solid;border-image:linear-gradient(var(--s1),var(--s6)) 1;font:italic 500 1.5rem/1.3 "Bodoni Moda",Georgia,serif;color:var(--t)}
+.two p.q{margin-top:32px;padding-left:22px;border-left:4px solid;border-image:linear-gradient(var(--s1),var(--s6)) 1;font:italic 400 1.5rem/1.3 "DM Serif Display",Georgia,serif;color:var(--t)}
 .mo{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .ph,.gl img{width:100%;height:auto;display:block;border-radius:14px;box-shadow:0 26px 60px -26px var(--g)}
 .mo .ph:nth-child(even){margin-top:36px}
@@ -107,11 +107,10 @@ dialog::backdrop{background:#000d}
 </div></div></section>
 
 <section id="cartas"><i class="px" data-s=".3" style="--gl:radial-gradient(50% 40% at 50% 50%,#ff2d8f22,transparent 70%);--im:var(--b2)"></i><div class="w"><h2 class="rv">Cada tono, en su lugar</h2>
-<p class="rv" style="--d:.1s;margin-top:22px;max-width:34rem">Mechones codificados y ordenados por familia de color, para que elegir sea rápido.</p>
 <div class="gl" style="grid-template-columns:1fr"><img class="rv" style="--g:#8b5cff99" alt="Carta de color abierta en un salón, junto a un maniquí con cabello de colores" src="assets/img/carta-abierta.webp"></div></div></section>
 
 <section id="reel"><i class="px" data-s=".22" style="--gl:radial-gradient(40% 40% at 15% 50%,#23c7ff44,transparent 70%),radial-gradient(40% 40% at 90% 40%,#ff2d8f44,transparent 70%)"></i><div class="w two">
-<div class="rv"><h2>Mira cómo trabajamos</h2><p>Un recorrido de 30 segundos por nuestras cartas de color. Se entiende también sin sonido.</p></div>
+<div class="rv"><h2>Mira cómo trabajamos</h2><p>Un recorrido de 30 segundos por nuestras cartas de color.</p></div>
 <button class="po rv" style="--d:.15s" data-v aria-label="Reproducir el reel"><span>▶</span></button>
 </div></section>
 
